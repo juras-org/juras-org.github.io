@@ -12,8 +12,32 @@
 	<meta property="fb:admins" content="{754200084930127}"/>
 	<meta property="fb:app_id" content="{1970860229658203}"/>
 </head>
-<body>
+<body onload="startTime()">
 	<header>КОТИКИ :3</header>
+		<b id="time">
+		<script type="text/javascript" >
+						function startTime()
+						{
+						var tm=new Date();
+						var h=tm.getHours();
+						var m=tm.getMinutes();
+						var s=tm.getSeconds();
+							m=checkTime(m);
+								s=checkTime(s);
+									document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+								t=setTimeout('startTime()',500);
+						}
+							function checkTime(i)
+						{
+								if (i<10)
+						{
+									i="0" + i;
+						}
+										return i;
+						}
+				</script>
+		</b>
+			<p id="txt"></p>
 		<div class="content"></div>
 			<div id="a">CATS</div>
 				<img id= "cat" src="tenor.gif" width="300" height="300">
@@ -34,6 +58,19 @@
 				</center>
 
 	<center><iframe id="pew" width="480" height="240" src="https://www.youtube.com/embed/C7SIlD5UFxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+		<div id="fb-root"></div>
+			<script>
+					(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v3.2&appId=1970860229658203&autoLogAppEvents=1';
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+
+		<div class="fb-comments" data-href="https://juras-org.github.io/" data-width="600" data-numposts="50"></div>
 
 	<footer>Koty są spoko</footer>
 </body>
