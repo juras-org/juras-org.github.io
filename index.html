@@ -84,9 +84,9 @@
 				    </li>
 				    <li><a href="secret.html">???</a>
 				        <ul class="submenu">
-				            <li><a href="adm/index.html">Admins</a></li>
+				            <li><a href=#>Admins</a></li>
 				            <li><a href=#>Test</a></li>
-				            <li><a href=#</a>!!!</li>
+				            <li><a href=#>!!!</a></li>
 				        </ul>
 				    </li>
 				</ul>
@@ -131,13 +131,13 @@
 				var flashingletters2=1
 				var flashpause=0
 				var n=0
-if (document.all||document.getElementById){
-   document.write('<font color="'+neonbasecolor+'" size=+2>')
-   for (m=0;m<message.length;m++)
-    document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
-   document.write('</font>')
+				if (document.all||document.getElementById){
+				   document.write('<font color="'+neonbasecolor+'" size=+2>')
+				   for (m=0;m<message.length;m++)
+				    document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+				   document.write('</font>')
 }
-	else
+else
    document.write(message)
 function crossref(number){
    var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
