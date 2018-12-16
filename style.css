@@ -2,8 +2,101 @@ body {
 	background-color: #aca0f7;
 }
 
+header {
+	color: white;
+	background-color: #471d8c;
+	font-size: 100px;
+	font-family: cursive;
+	text-align: center;
+	border-radius: 50px;
+}
+
+img {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+footer {
+	margin-top: 400px;
+	height: 50px;
+	background-color: #847ae8;
+	text-align: right;
+}
+
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: black;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+
+
 #a {
-	background-color: red;
 	width: 280px;
 	height: 150px;
 	margin-top: 20px;
@@ -33,31 +126,4 @@ body {
 #time {
 	font-size: 30px;
 	font-family: verdana;
-}
-
-#clock{
-  font-family:Tahoma, sans-serif;
-  font-size:20px;
-  font-weight:bold;
-  color:#0000cc;	
-}
-
-header {
-	color: white;
-	background-color: #471d8c;
-	font-size: 100px;
-	font-family: cursive;
-	text-align: center;
-}
-
-img {
-	margin-left: 30px;
-	margin-top: 30px;
-}
-
-footer {
-	margin-top: 400px;
-	height: 50px;
-	background-color: #847ae8;
-	text-align: right;
 }
