@@ -13,6 +13,10 @@ body {
 	font-size: 90px;
 }
 
+#mom {
+	font-size: 8px
+}
+
 header {
 	color: white;
 	background-color: #471d8c;
@@ -23,6 +27,7 @@ header {
 
 footer {
 	margin-top: 400px;
+	font-size: 10px
 }
 
 img {
