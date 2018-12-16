@@ -150,3 +150,8 @@ ul.menu > li:hover > ul.submenu {
     background: #fc3; /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
 }
+
+#dog0 {
+	height: 400px;
+	width: 400px;
+}
