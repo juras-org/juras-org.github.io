@@ -1,0 +1,30 @@
+body {
+	background-color: #d3bcff;
+}
+
+#a {
+	background-color: red;
+	width: 200px;
+	height: 150px;
+	margin-top: 20px;
+	color: blue;
+	font-family: verdana;
+	font-family: cursive;
+	font-size: 100px;
+}
+
+header {
+	color: white;
+	background-color: #471d8c;
+	font-size: 40px;
+	font-family: cursive;
+	text-align: right;
+}
+
+footer {
+	margin-top: 400px;
+}
+
+#cat {
+	margin-top: 30px;
+}
