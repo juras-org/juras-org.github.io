@@ -17,6 +17,16 @@ body {
 	font-size: 8px
 }
 
+#pew {
+	margin-top: 40px;
+}
+
+#sub {
+	font-size: 70px;
+	margin-top: 30px;
+}
+
+
 header {
 	color: white;
 	background-color: #471d8c;
