@@ -1,5 +1,5 @@
 body {
-	background-color: #c592fc;
+	background-color: #aca0f7;
 }
 
 #a {
@@ -57,5 +57,6 @@ img {
 
 footer {
 	margin-top: 400px;
-	background-color: #e55959;
+	height: 50px;
+	background-color: #847ae8;
 }
