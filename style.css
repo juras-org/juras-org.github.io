@@ -9,6 +9,9 @@ header {
 	font-family: cursive;
 	text-align: center;
 	border-radius: 50px;
+	border: 4px double yellow; /* Параметры границы */
+    background: #471d8c; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
 }
 
 img {
@@ -130,4 +133,19 @@ ul.menu > li:hover > ul.submenu {
 #time {
 	font-size: 30px;
 	font-family: verdana;
+}
+
+#cat0 {
+
+}
+
+#cat1 {
+	width: 300px;
+	height: 225px;
+}
+
+#photos_border {
+	border: 4px double black; /* Параметры границы */
+    background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
 }
