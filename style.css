@@ -4,12 +4,12 @@ body {
 
 #a {
 	background-color: red;
-	width: 200px;
+	width: 270px;
 	height: 150px;
 	margin-top: 20px;
+	margin-left: 40px;
 	color: blue;
 	font-family: verdana;
-	font-family: cursive;
 	font-size: 100px;
 }
 
@@ -18,13 +18,14 @@ header {
 	background-color: #471d8c;
 	font-size: 40px;
 	font-family: cursive;
-	text-align: right;
+	text-align: center;
 }
 
 footer {
 	margin-top: 400px;
 }
 
-#cat {
+img {
+	margin-left: 30px;
 	margin-top: 30px;
 }
