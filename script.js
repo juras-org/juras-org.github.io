@@ -1,1 +1,1 @@
-alert("Hi Babieborn");
+alert("Hello");
