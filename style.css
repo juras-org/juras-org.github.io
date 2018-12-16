@@ -136,7 +136,8 @@ ul.menu > li:hover > ul.submenu {
 }
 
 #cat0 {
-
+	width: 220px;
+	height: 220px;
 }
 
 #cat1 {
