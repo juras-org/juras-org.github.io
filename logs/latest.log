@@ -131,3 +131,222 @@ java.io.IOException: ???????? ??????????
 [23:12:49] [Server thread/INFO]: Preparing spawn area: 57%
 [23:12:50] [Server thread/INFO]: Preparing spawn area: 62%
 [23:12:51] [Server thread/INFO]: Preparing spawn area: 65%
+[23:12:52] [Server thread/INFO]: Preparing spawn area: 71%
+[23:12:53] [Server thread/INFO]: Preparing spawn area: 75%
+[23:12:54] [Server thread/INFO]: Preparing spawn area: 81%
+[23:12:55] [Server thread/INFO]: Preparing spawn area: 87%
+[23:12:56] [Server thread/INFO]: Preparing spawn area: 93%
+[23:12:57] [Server thread/INFO]: Preparing spawn area: 98%
+[23:12:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5289785530126995994)
+[23:12:59] [Server thread/INFO]: Preparing spawn area: 0%
+[23:13:00] [Server thread/INFO]: Preparing spawn area: 1%
+[23:13:01] [Server thread/INFO]: Preparing spawn area: 2%
+[23:13:02] [Server thread/INFO]: Preparing spawn area: 4%
+[23:13:04] [Server thread/INFO]: Preparing spawn area: 9%
+[23:13:05] [Server thread/INFO]: Preparing spawn area: 15%
+[23:13:06] [Server thread/INFO]: Preparing spawn area: 15%
+[23:13:07] [Server thread/INFO]: Preparing spawn area: 22%
+[23:13:08] [Server thread/INFO]: Preparing spawn area: 23%
+[23:13:09] [Server thread/INFO]: Preparing spawn area: 29%
+[23:13:10] [Server thread/INFO]: Preparing spawn area: 36%
+[23:13:11] [Server thread/INFO]: Preparing spawn area: 42%
+[23:13:12] [Server thread/INFO]: Preparing spawn area: 50%
+[23:13:13] [Server thread/INFO]: Preparing spawn area: 55%
+[23:13:14] [Server thread/INFO]: Preparing spawn area: 61%
+[23:13:15] [Server thread/INFO]: Preparing spawn area: 64%
+[23:13:16] [Server thread/INFO]: Preparing spawn area: 72%
+[23:13:17] [Server thread/INFO]: Preparing spawn area: 78%
+[23:13:18] [Server thread/INFO]: Preparing spawn area: 84%
+[23:13:19] [Server thread/INFO]: Preparing spawn area: 90%
+[23:13:20] [Server thread/INFO]: Preparing spawn area: 97%
+[23:13:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5289785530126995994)
+[23:13:22] [Server thread/INFO]: Preparing spawn area: 4%
+[23:13:23] [Server thread/INFO]: Preparing spawn area: 28%
+[23:13:24] [Server thread/INFO]: Preparing spawn area: 46%
+[23:13:25] [Server thread/INFO]: Preparing spawn area: 53%
+[23:13:26] [Server thread/INFO]: Preparing spawn area: 73%
+[23:13:27] [Server thread/INFO]: Preparing spawn area: 93%
+[23:13:28] [Server thread/INFO]: Done (65,450s)! For help, type "help" or "?"
+[23:20:35] [Spigot Watchdog Thread/ERROR]: The server has stopped responding!
+[23:20:37] [Spigot Watchdog Thread/ERROR]: Please report this to http://www.spigotmc.org/
+[23:20:37] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[23:20:38] [Spigot Watchdog Thread/ERROR]: Spigot version: git-Spigot-9b8bba4-bdcc7c7 (MC: 1.12.2)
+[23:20:38] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:38] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[23:20:40] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:40] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:73)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:127)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.a(ChunkProviderServer.java:232)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1052)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[23:20:40] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:40] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[23:20:55] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:55] [Spigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.util.zip.Deflater.deflate(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedOutputStream.write(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.DataOutputStream.write(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		Locked on:net.minecraft.server.v1_12_R1.RegionFileCache.e(RegionFileCache.java:94)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		Locked on:net.minecraft.server.v1_12_R1.ChunkRegionLoader.processSaveQueueEntry(ChunkRegionLoader.java:195)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.util.zip.Deflater.deflateBytes(Native Method)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.util.zip.Deflater.deflate(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.util.zip.Deflater.deflate(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.util.zip.DeflaterOutputStream.deflate(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.util.zip.DeflaterOutputStream.write(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.write(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.io.DataOutputStream.write(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(Unknown Source)
+[23:20:55] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagByteArray.write(NBTTagByteArray.java:37)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagCompound.a(SourceFile:425)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagCompound.write(SourceFile:60)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagList.write(SourceFile:45)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagCompound.a(SourceFile:425)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagCompound.write(SourceFile:60)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagCompound.a(SourceFile:425)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTTagCompound.write(SourceFile:60)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:70)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:63)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.RegionFileCache.e(RegionFileCache.java:94)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.b(ChunkRegionLoader.java:212)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.processSaveQueueEntry(ChunkRegionLoader.java:195)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:167)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.FileIOThread.c(SourceFile:37)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.FileIOThread.run(SourceFile:30)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: TIMED_WAITING
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:76)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-3
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.lang.Throwable.fillInStackTrace(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedOutputStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Throwable.fillInStackTrace(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Throwable.fillInStackTrace(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Throwable.<init>(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Exception.<init>(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.IOException.<init>(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.writeBytes(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:82)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:46)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveBody(ChunkRegionLoader.java:295)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.access$0(ChunkRegionLoader.java:271)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader$1.get(ChunkRegionLoader.java:142)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader$1.get(ChunkRegionLoader.java:1)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		org.spigotmc.SupplierUtils.createUnivaluedSupplier(SupplierUtils.java:59)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkRegionLoader.saveChunk(ChunkRegionLoader.java:147)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.saveChunk(ChunkProviderServer.java:209)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.a(ChunkProviderServer.java:232)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1052)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: TIMED_WAITING
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.DedicatedServer$1.run(DedicatedServer.java:60)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: TIMED_WAITING
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+[23:20:56] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[23:20:56] [Spigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[23:20:56] [Spigot Watchdog Thread/INFO]: Stopping server
+[23:20:57] [Spigot Watchdog Thread/INFO]: Saving players
+[23:20:57] [Spigot Watchdog Thread/INFO]: Saving worlds
+[23:20:57] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world'/overworld
+[23:21:00] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[23:21:01] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world_the_end'/the_end
